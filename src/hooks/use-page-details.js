@@ -1,8 +1,8 @@
 import { decode } from 'frontity';
 
 const usePageDetails = ( state ) => {
-	const { frontity, socialCards, router, source } = state;
-	const { siteLogo } = socialCards;
+	const { frontity, router, socialPreviews, source } = state;
+	const { siteLogo } = socialPreviews;
 	const data = source.get( router.link );
 	const { id, isPostType, isTaxonomy, taxonomy, type } = data;
 

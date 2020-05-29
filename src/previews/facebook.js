@@ -4,8 +4,8 @@ import { Head, connect } from 'frontity';
 
 const Facebook = ( { state } ) => {
 	const { currentUrl, description, image, title } = usePageDetails( state );
-	const { socialCards } = state;
-	const { facebook } = socialCards;
+	const { socialPreviews } = state;
+	const { facebook } = socialPreviews;
 	return (
 		<Head>
 			<meta content={ currentUrl } property="og:url" />

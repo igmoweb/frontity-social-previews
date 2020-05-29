@@ -4,7 +4,7 @@ import Twitter from './previews/twitter';
 
 export default {
 	roots: {
-		socialCards: () => {
+		socialPreviews: () => {
 			return (
 				<>
 					<Twitter />
@@ -14,7 +14,7 @@ export default {
 		},
 	},
 	state: {
-		socialCards: {
+		socialPreviews: {
 			siteLogo: '',
 			twitter: {
 				site: '',
