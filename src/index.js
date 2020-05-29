@@ -15,10 +15,10 @@ export default {
 	},
 	state: {
 		socialCards: {
-			siteLogo: 'https://igmoweb.files.wordpress.com/2020/05/bug.png',
+			siteLogo: '',
 			twitter: {
-				site: 'igmoweb',
-				creator: 'twitter',
+				site: '',
+				creator: '',
 			},
 			facebook: {
 				facebookAppId: '',
